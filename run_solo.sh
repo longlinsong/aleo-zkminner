@@ -22,4 +22,6 @@ wsize=12
 ##cuda_thread=8
 ##wsize=12
 
-./solo_prover --address $address --tcp_server $tcp_server --ssl_server $ssl_server 2>&1
+./solo_prover --address $address --wsize $wsize --cuda_thread $cuda_thread --tcp_server $tcp_server --ssl_server $ssl_server 2>&1
+# cpu without sha
+#./intel_solo_prover --address $address --wsize $wsize --cuda_thread $cuda_thread --tcp_server $tcp_server --ssl_server $ssl_server 2>&1

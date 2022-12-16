@@ -19,3 +19,5 @@ wsize=12
 ##wsize=12
 
 ./pool_prover --cuda_thread $cuda_thread --wsize $wsize --email $email --tcp_server $tcp_server --ssl_server $ssl_server 2>&1
+# cpu without sha
+#./intel_pool_prover --cuda_thread $cuda_thread --wsize $wsize --email $email --tcp_server $tcp_server --ssl_server $ssl_server 2>&1
