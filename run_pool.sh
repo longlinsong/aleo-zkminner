@@ -1,6 +1,7 @@
 # server list
-tcp_server=36.189.234.195:10001
-ssl_server=36.189.234.195:10002
+tcp_server=61.10.9.22:30014
+ssl_server=61.10.9.22:30015
+
 
 # use your own email instead
 email=test@gmail.com

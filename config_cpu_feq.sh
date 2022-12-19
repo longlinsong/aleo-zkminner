@@ -2,7 +2,9 @@
 # sudo apt-get install cpufrequtils
 
 # Adjust the number of cpu cores
-for i in {0..64}
+cores=$(cat /proc/cpuinfo| grep "processor"| wc -l)
+
+for((i=0;i<$cores;i++))
 do
 cpufreq-set -g performance -c $i
 echo $i
